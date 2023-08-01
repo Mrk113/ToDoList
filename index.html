@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>">
+</head>
+<body>
+    <div class="container">
+        <div class="main-item">
+                <h1 class="header">To-Do List 📝</h1>
+                    <div class="row">
+                        <input type="text" placeholder="Add your task" class="text-field">
+                        <button type="submit" id="btn-submit">Add</button>
+                    </div>
+                <ul id="inner-container">
+                    <!--To do list items will apear hear-->
+                    <li>Komm On!<span>×</span></li>
+                </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
